@@ -44,7 +44,7 @@ workflows:
           google_services_path: app/google-services.json
       email:
         recipients:
-          - user@example.com
+          - userbyaru13@gmail.com
         notify:
           success: true
           failure: false
