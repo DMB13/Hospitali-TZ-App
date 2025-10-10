@@ -12,7 +12,7 @@ workflows:
           echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
       - name: Build Android APK
         script: |
-          ./gradlew assembleRelease \
+          gradle assembleRelease
             --build-cache \
             --parallel \
             --stacktrace
