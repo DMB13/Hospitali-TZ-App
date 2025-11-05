@@ -1,0 +1,43 @@
+name: Android Build - HospitalTZ
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build HospitalTZ Android App
+    runs-on: ubuntu-latest
+
+    env:
+      PACKAGE_NAME: com.hospital.tz
+      JAVA_VERSION: '11'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Grant permission to Gradle wrapper
+        run: chmod +x ./gradlew
+
+      - name: Set up local.properties
+        run: echo "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+
+      - name: Build Release APK
+        run: ./gradlew assembleRelease --stacktrace --parallel --build-cache
+
+      - name: Build Release AAB (Bundle)
+        run: ./gradlew bundleRelease --stacktrace --parallel --build-cache
+
+      - name: Upload APK & AAB as Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: HospitalTZ-Builds
