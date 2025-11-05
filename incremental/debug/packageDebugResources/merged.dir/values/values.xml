@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabTrace TZ</string>
+    <string name="collected">Collected</string>
+    <string name="collected_results">Collected</string>
+    <string name="create_sample">Create Sample</string>
+    <string name="destination_lab">Destination Lab</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="in_transit">In Transit</string>
+    <string name="login">Login</string>
+    <string name="notification_sent">Notification Sent</string>
+    <string name="patient_initials">Patient Initials</string>
+    <string name="processing">Processing</string>
+    <string name="received">Received</string>
+    <string name="results_ready">Results Ready</string>
+    <string name="sample_id">Sample ID</string>
+    <string name="sample_type">Sample Type</string>
+    <string name="save">Save</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="status">Status</string>
+    <string name="update_status">Update Status</string>
+    <string name="username">Username</string>
+    <string name="view_status">View Status</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabTrace TZ</string>
+    <string name="login">Ingia</string>
+    <string name="username">Jina la mtumiaji</string>
+    <string name="create_sample">Unda Sampuli</string>
+    <string name="update_status">Sasisha Hali</string>
+    <string name="view_status">Angalia Hali</string>
+    <string name="sample_id">Kitambulisho cha Sampuli</string>
+    <string name="patient_initials">Herufi za Kwanza za Mgonjwa</string>
+    <string name="sample_type">Aina ya Sampuli</string>
+    <string name="destination_lab">Maabara Lengwa</string>
+    <string name="status">Hali</string>
+    <string name="collected">Imekusanywa</string>
+    <string name="in_transit">Katika Usafiri</string>
+    <string name="received">Imepokelewa</string>
+    <string name="processing">Inachakatwa</string>
+    <string name="results_ready">Matokeo Tayari</string>
+    <string name="collected_results">Imekusanywa</string>
+    <string name="save">Hifadhi</string>
+    <string name="scan_barcode">Changanua Barcode</string>
+    <string name="export_csv">Hamisha CSV</string>
+    <string name="notification_sent">Taarifa Imetumwa</string>
+</resources>

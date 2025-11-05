@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_appointments
+drawable ic_home
+drawable ic_learn
+drawable ic_map
+drawable ic_messages
+drawable ic_profile
+string app_name
+string collected
+string collected_results
+string create_sample
+string destination_lab
+string export_csv
+string in_transit
+string login
+string notification_sent
+string patient_initials
+string processing
+string received
+string results_ready
+string sample_id
+string sample_type
+string save
+string scan_barcode
+string status
+string update_status
+string username
+string view_status
+xml network_security_config
